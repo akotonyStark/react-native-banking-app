@@ -16,7 +16,7 @@ useEffect(() => {
 
   return (
     <SafeAreaView style={{ flex: 1, justifyContent: 'flex-end' }}>
-    <StatusBar backgroundColor='#008179' style='light-content' barStyle="light-content"/>
+    {/* <StatusBar backgroundColor='#008179' style='light-content' barStyle="light-content"/> */}
     <ImageBackground source={smile} resizeMode="cover" style={styles.image}>
       <View style={styles.midSection}>
         <ActivityIndicator size={'large'} animating={true}/>
